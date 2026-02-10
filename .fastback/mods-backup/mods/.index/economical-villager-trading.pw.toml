@@ -1,0 +1,17 @@
+filename = 'economical-villager-trading-1.7.0+MC1.21.11.jar'
+name = 'Economical Villager Trading'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'economical-villager-trading-1.7.0+MC1.21.11.jar'
+
+[download]
+hash = 'd6b2c3f4bfa47f6133de73ba068e3ac18e1c7506'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7368070
+project-id = 395573

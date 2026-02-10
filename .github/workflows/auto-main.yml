@@ -1,0 +1,25 @@
+name: Sync Backup to Main
+
+# Trigger on any push to any branch, EXCEPT 'main' (to prevent loops)
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  update-main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to allow the bot to push code
+
+    steps:
+      - name: Checkout the new backup
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history for all branches
+
+      - name: Force Push to Main
+        run: |
+          # The current branch that triggered this is automatically checked out as HEAD
+          # We force push HEAD to the 'main' branch
+          git push origin HEAD:main --force

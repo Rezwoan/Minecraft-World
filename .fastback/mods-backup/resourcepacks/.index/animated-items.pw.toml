@@ -1,0 +1,68 @@
+filename = 'animated-items 1.21.x - v1.5.5.zip'
+name = 'Animated Items'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.2 Pre-Release 1',
+    '1.21.2 Pre-Release 2',
+    '1.21.2-pre1',
+    '1.21.2-pre2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9',
+    '24w33a',
+    '24w33a',
+    '24w34a',
+    '24w34a',
+    '24w35a',
+    '24w35a',
+    '24w36a',
+    '24w36a',
+    '24w37a',
+    '24w37a',
+    '24w38a',
+    '24w38a',
+    '24w39a',
+    '24w39a',
+    '24w40a',
+    '24w40a',
+    '24w44a',
+    '24w44a',
+    '24w45a',
+    '24w45a',
+    '24w46a',
+    '24w46a'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.5'
+
+[download]
+hash = '8a5a216a9591270eccb707149a6266fb4cb82abbfb3d40b026d5a74c8e1c8bc638698dce4820454b55f978db09576bb4fb637c025891db251bb0820ce2e9399d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uBBepXuH/versions/KBtMTjf2/animated-items 1.21.x - v1.5.5.zip'
+
+[update.modrinth]
+mod-id = 'uBBepXuH'
+version = 'KBtMTjf2'

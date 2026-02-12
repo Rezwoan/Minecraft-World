@@ -1,0 +1,17 @@
+filename = 'FastTrading-0.2.3+1.21.11.jar'
+name = 'Fast Trading'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.2.3+1.21.11'
+
+[download]
+hash = '60527d5839166c730a08da05f852b40ab464cd336814fa3713de9e34f75dfa17a3bac7e9353c7a2600959f42adf9cfed747b5df1a37bac061366b7916d490522'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ht0RRAt0/versions/A4qWypSp/FastTrading-0.2.3%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'Ht0RRAt0'
+version = 'A4qWypSp'

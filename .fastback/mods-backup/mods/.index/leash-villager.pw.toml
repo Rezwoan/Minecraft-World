@@ -1,0 +1,17 @@
+filename = 'leash-villager-1.0.0+mc1.21.11.jar'
+name = 'Leash Villager'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Leash Villager 1.0.0 for Minecraft 1.21.11'
+
+[download]
+hash = 'fab74adc5b11cd63d23a94e132edc936bb987ebb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7318548
+project-id = 1363801

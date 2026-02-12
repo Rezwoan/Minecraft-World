@@ -1,0 +1,17 @@
+filename = 'player-death-corpses-2.5.jar'
+name = 'Player Corpses'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.5+mod'
+
+[download]
+hash = '774c5d033417d97185394c962e6588894dbbf65a43710741f760b61f4a9b1bc90912ee06b246608e6c5c515c7ca43da0144d8993d0b177a3aef213aa9270178d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jzoouHnf/versions/JMlh1iJp/player-death-corpses-2.5.jar'
+
+[update.modrinth]
+mod-id = 'jzoouHnf'
+version = 'JMlh1iJp'

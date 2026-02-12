@@ -1,0 +1,17 @@
+filename = 'treeharvester-1.21.11-9.3.jar'
+name = 'Tree Harvester'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.11-9.3 | Tree Harvester'
+
+[download]
+hash = '49d56f0d3a164e8a32740d042a6a74b64c6f9b8f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7317982
+project-id = 367178

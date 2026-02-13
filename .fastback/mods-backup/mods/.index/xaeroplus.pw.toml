@@ -1,0 +1,17 @@
+filename = 'XaeroPlus-2.30.8+fabric-1.21.11-WM1.40.11-MM25.3.10.jar'
+name = 'XaeroPlus'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.30.8+fabric-1.21.11'
+
+[download]
+hash = 'fc15efced6cc11c17e903cd4910782a4a32aa7f4ac517496b5728168becaca3f4b9d07269dbf15da6c97af186d05aa19431b7a5b1b27840fae48e98536675a2a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EnPUzSTg/versions/dDyDvotN/XaeroPlus-2.30.8%2Bfabric-1.21.11-WM1.40.11-MM25.3.10.jar'
+
+[update.modrinth]
+mod-id = 'EnPUzSTg'
+version = 'dDyDvotN'

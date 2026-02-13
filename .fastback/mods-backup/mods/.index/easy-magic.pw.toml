@@ -1,0 +1,17 @@
+filename = 'EasyMagic-v21.11.0-mc1.21.11-Fabric.jar'
+name = 'Easy Magic'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.11.0'
+
+[download]
+hash = '7b633dedece11c327e8964dfa03e82d17de3b648796ca3d72a45e5936e045758a1536bee7374a63a00e148e91af7f99ab4fef95218343a24d52e128e9d7846f8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9hx3AbJM/versions/Bk567o2Y/EasyMagic-v21.11.0-mc1.21.11-Fabric.jar'
+
+[update.modrinth]
+mod-id = '9hx3AbJM'
+version = 'Bk567o2Y'

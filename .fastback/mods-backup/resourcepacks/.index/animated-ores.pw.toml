@@ -1,0 +1,17 @@
+filename = 'Glowing Animated Ores[N6.1][1.21.11].zip'
+name = 'Glowing Animated Ores'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'N6.1'
+
+[download]
+hash = '4efc9e394be24fcd6e89ec9c792dde630556dfbeb9b05132c09aaeaef33e0079213b445fb96a0763bee0c4e5a8254a8099b558e80389dabf5279db027d2d1be4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7FPKQLzr/versions/D2hocxHn/Glowing Animated Ores%5BN6.1%5D%5B1.21.11%5D.zip'
+
+[update.modrinth]
+mod-id = '7FPKQLzr'
+version = 'D2hocxHn'

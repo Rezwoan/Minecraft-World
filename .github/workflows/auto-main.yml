@@ -1,0 +1,57 @@
+name: Sync & Cleanup
+
+on:
+  push:
+    branches-ignore:
+      - main  # Run on any backup branch, but ignore 'main' to avoid loops
+
+jobs:
+  manage-backups:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # ALLOWS deleting branches
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # We need full history to see all branches
+
+      - name: Sync Latest to Main
+        run: |
+          # 1. Identify the current backup branch (HEAD)
+          CURRENT_BRANCH=${GITHUB_REF#refs/heads/}
+          echo "Processing backup: $CURRENT_BRANCH"
+          
+          # 2. Force push this snapshot to 'main'
+          git push origin HEAD:main --force
+          echo "Successfully synced $CURRENT_BRANCH to main"
+
+      - name: Delete Old Backups (Keep Latest 5)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # 1. Get list of all remote branches that look like backups (exclude main)
+          # We sort by comitter date (newest first)
+          # We assume FastBack uses the pattern "kqKV/..." or similar. We'll list all non-main branches.
+          
+          git branch -r --sort=-committerdate --format='%(refname:short)' | grep -v 'origin/main' | grep -v 'origin/HEAD' > all_branches.txt
+          
+          echo "Found branches:"
+          cat all_branches.txt
+
+          # 2. Skip the top 5 (Keep them)
+          tail -n +6 all_branches.txt > branches_to_delete.txt
+          
+          # 3. Delete the rest
+          if [ -s branches_to_delete.txt ]; then
+            echo "Deleting old branches..."
+            while read branch; do
+              # Strip 'origin/' prefix to get the actual branch name
+              CLEAN_NAME=${branch#origin/}
+              echo "Deleting: $CLEAN_NAME"
+              git push origin --delete "$CLEAN_NAME"
+            done < branches_to_delete.txt
+          else
+            echo "No old branches to delete (Total is 5 or less)."
+          fi

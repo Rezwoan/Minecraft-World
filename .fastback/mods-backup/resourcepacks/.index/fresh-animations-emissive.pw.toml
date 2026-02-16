@@ -1,0 +1,54 @@
+filename = 'FA+Emissive-v1.4.1.zip'
+name = 'Fresh Animations: Emissive'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20.1',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.1'
+
+[download]
+hash = '489623ab074aaa69e7771cb0ec11ba3ef8a7294bdf5e08466f105b928ee0c0455e83b9fcb83dfe5cd8df583ee1b34abf0073eb366826fc747a793d7446d1be78'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VRS2YQn9/versions/ovyufcaT/FA%2BEmissive-v1.4.1.zip'
+
+[update.modrinth]
+mod-id = 'VRS2YQn9'
+version = 'ovyufcaT'

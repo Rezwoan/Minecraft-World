@@ -1,0 +1,7 @@
+{
+  "villagerTradeAdjustBalance": 2.0,
+  "enableReputationPriceAdjustments": true,
+  "villagerXpMultiplier": 2.0,
+  "enableVillagerLevelupWhileTrading": true,
+  "doVanillaRestocks": true
+}

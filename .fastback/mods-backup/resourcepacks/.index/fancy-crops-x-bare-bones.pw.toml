@@ -1,0 +1,50 @@
+filename = 'Fancy Crops X Bare Bones v1.0.zip'
+name = 'Fancy Crops X Bare Bones'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20',
+    '1.20.1',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '90c26fc14190d9c9674391004beb7324a88ea85b61f6077db5e72c7c96865b207797aa934a369ebaea1ed4374bf8a0ebed78858336e8bbb120381c62cd981942'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ANVgs5XZ/versions/9fnzrm8A/Fancy Crops X Bare Bones v1.0.zip'
+
+[update.modrinth]
+mod-id = 'ANVgs5XZ'
+version = '9fnzrm8A'

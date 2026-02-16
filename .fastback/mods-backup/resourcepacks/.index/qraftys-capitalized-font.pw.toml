@@ -1,0 +1,36 @@
+filename = "qrafty's-capitalized-font-3.3.zip"
+name = "qrafty's Capitalized Font"
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.21.11',
+    '1.21.11',
+    '1.21.11 Pre-Release 1',
+    '1.21.11 Pre-Release 2',
+    '1.21.11 Pre-Release 3',
+    '1.21.11 Pre-Release 4',
+    '1.21.11 Pre-Release 5',
+    '1.21.11 rc1',
+    '1.21.11 rc2',
+    '1.21.11 rc3',
+    '1.21.11-pre1',
+    '1.21.11-pre2',
+    '1.21.11-pre3',
+    '1.21.11-pre4',
+    '1.21.11-pre5',
+    '1.21.11-rc1',
+    '1.21.11-rc2',
+    '1.21.11-rc3'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.3'
+
+[download]
+hash = '03d8f44f6e0261628fe83f7c636d9907000a124eee612591e639a36e4c85b24b6ecbdebf49fbf3ab3420a336348e11c9a061a948d65b89ee38a46060c7e34fea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FA4ebMMU/versions/eJ0ho2WV/qrafty%27s-capitalized-font-3.3.zip'
+
+[update.modrinth]
+mod-id = 'FA4ebMMU'
+version = 'eJ0ho2WV'

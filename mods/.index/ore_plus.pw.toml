@@ -1,0 +1,17 @@
+filename = 'ore_plus-3.88.94.0_x2.jar'
+name = 'Ore Plus'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.10', '1.21.11', '1.21.11', '1.21.9', '1.21.9' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.88.94.0-x2_mod'
+
+[download]
+hash = '9d4cd1de70bce83cf6b54ade586226066cd61c525ba8276c55387e22e51282875dab19cc639ff936b0ef9ea50953f14805e5e177578a652e00ffc787b2055a44'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EvMSt5OU/versions/n650LQHL/ore_plus-3.88.94.0_x2.jar'
+
+[update.modrinth]
+mod-id = 'EvMSt5OU'
+version = 'n650LQHL'
